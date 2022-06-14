@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  padding: 0;
+  margin: 0;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+
+:root {
+  --light-blue: #77b1ff;
+  --light-green: #9bff77;
+}
+
+.content-wrapper {
+  display: inline-block;
+  margin: 16px;
+  padding: 16px;
+  border-color: var(--light-green);
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 32px;
+  min-width: 280px;
+  min-height: 280px;
+  max-width: 280px;
+  max-height: 280px;
+}

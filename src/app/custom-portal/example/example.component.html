@@ -1,0 +1,18 @@
+<h1>custom example</h1>
+
+<button type="button" (click)="onIncrementClick()">increment</button>
+
+
+<p>
+  Content to teleport:
+</p>
+
+<div class="content-wrapper">
+  <div class="content" *customTeleportTo>
+    I've been teleported by cdk portal!
+
+    <p>counter: {{ counter }}</p>
+
+    <button type="button" (click)="onButtonClick()">click me!</button>
+  </div>
+</div>

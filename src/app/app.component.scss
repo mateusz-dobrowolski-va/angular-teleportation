@@ -1,0 +1,58 @@
+nav {
+  width: 100%;
+  background: var(--light-blue);
+  padding: 16px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+      padding: 8px 16px;
+      cursor: pointer;
+
+
+      a {
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+
+.portals {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portal {
+  margin: 16px;
+  padding: 16px;
+}
+
+.portal__name {
+
+}
+
+.portal__outlet {
+  display: inline-block;
+  margin: 16px;
+  padding: 16px;
+  border-color: var(--light-blue);
+  border-style: dashed;
+  border-width: 3px;
+  border-radius: 32px;
+  min-width: 280px;
+  min-height: 280px;
+  max-width: 280px;
+  max-height: 280px;
+}

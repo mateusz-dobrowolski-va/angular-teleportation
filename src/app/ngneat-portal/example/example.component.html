@@ -1,0 +1,22 @@
+<h1>ngneat portal example</h1>
+
+
+<button type="button" (click)="onIncrementClick()">increment</button>
+
+<p>
+  Content to teleport:
+</p>
+
+<div class="content-wrapper">
+  <ng-container *teleportTo="'ngneat-outlet'">
+    <div class="content">
+      I've been teleported by ngneat portal!
+
+      <p>counter: {{ counter }}</p>
+
+      <button type="button" (click)="onButtonClick()">click me!</button>
+    </div>
+  </ng-container>
+</div>
+
+
